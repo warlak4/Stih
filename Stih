@@ -1,0 +1,13 @@
+#include <iostream>
+#include <locale>
+
+int main() {
+    setlocale(LC_ALL, "Rus");
+    
+    std::cout << "Разгулялась осень золотая,\n";
+    std::cout << "По лесам, по улицам ,дворам,\n";
+    std::cout << "И светлой грустью облетая,\n";
+    std::cout << "Прикоснулась к серым облакам.\n";
+    
+    return 0;
+}
